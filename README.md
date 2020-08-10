@@ -3,6 +3,7 @@
 
 #To convert the selected sphere into asNode
 
+from asNode import *
 n =nselected()[0]
 
 #_ Rename sphere using asNode as 'asNode'
