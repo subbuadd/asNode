@@ -1,5 +1,5 @@
-# asNode
-# Create a sphere in the scene
+# asNode Usage
+#_ Create a sphere in the scene
 
 #To convert the selected sphere into asNode
 
@@ -21,3 +21,6 @@ print n.name()
 
 n.shortName()
 
+#_ To know about author of this file
+
+n.about_asNode()
