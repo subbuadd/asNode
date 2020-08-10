@@ -1,10 +1,12 @@
 # asNode
 # Create a sphere in the scene
 
-#To convert the selected sphere into asNode\n
+#To convert the selected sphere into asNode
+
 n =nselected()[0]
 
-#_ Rename sphere using asNode as 'asNode'\n
+#_ Rename sphere using asNode as 'asNode'
+
 n.rename('asNode')
 
 #_ Translate the sphere 1 unit in 'Y' axis
