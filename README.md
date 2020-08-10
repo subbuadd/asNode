@@ -1,4 +1,11 @@
 # asNode Usage
+'''
+Please check the below links for more details on asNode
+https://vimeo.com/118924262
+https://vimeo.com/189633514
+https://vimeo.com/214042130
+'''
+
 #_ Create a sphere in the scene
 
 #To convert the selected sphere into asNode
