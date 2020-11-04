@@ -26,6 +26,50 @@ n.rename('asNode')
 
 n.translateBy([0, 1, 0])
 
+#_ Add prefix to the node
+
+n.addPrefix('Hai_')
+
+#_ Add Suffix to the node
+
+n.addSuffix('_Sph')
+
+#_ Add this node to existing list variable
+
+myList =[]
+
+n.appendTo(myList)
+
+print myList
+
+#_ To delete existing attribute 'myAttr'
+
+n.deleteAttr('attrAttr')
+
+#_ To delete the history of the node
+
+n.deleteHistory()
+
+#_ To get the children of the node
+
+n.getChildren()
+
+#_ To get shape node
+
+n.getShape()
+
+#_ To get position of the node
+
+n.getPos()
+
+#_ To get the rotation of the node
+
+n.getRot()
+
+#_ To get the vertex list of the node
+
+n.getVtxList()
+
 #_ Print the name of the sphere
 
 print n.name()
